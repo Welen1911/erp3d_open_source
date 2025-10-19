@@ -18,7 +18,7 @@ class FilamentoResource extends Resource
 {
     protected static ?string $model = Filamento::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = 'solar-reel-2-line-duotone';
 
     protected static ?string $recordTitleAttribute = 'Filamento';
 

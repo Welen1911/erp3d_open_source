@@ -20,7 +20,7 @@ class PedidoResource extends Resource
 {
     protected static ?string $model = Pedido::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = 'lucide-store';
 
     protected static ?string $recordTitleAttribute = 'Pedido';
 
