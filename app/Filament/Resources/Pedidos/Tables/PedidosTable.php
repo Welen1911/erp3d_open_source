@@ -18,7 +18,7 @@ class PedidosTable
             ->columns([
                 TextColumn::make('cliente_nome')
                     ->searchable(),
-                TextColumn::make('produto.id')
+                TextColumn::make('produto.nome')
                     ->searchable(),
                 TextColumn::make('quantidade')
                     ->numeric()
